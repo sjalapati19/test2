@@ -1,1 +1,1 @@
-# azure-pipeline-exercise
+[![CI using GitHub Actions](https://github.com/ltpitt/azure-pipeline-exercise/actions/workflows/python-app.yml/badge.svg)](https://github.com/ltpitt/azure-pipeline-exercise/actions/workflows/python-app.yml)
