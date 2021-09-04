@@ -1,17 +1,23 @@
+[![CI using GitHub Actions](https://github.com/ltpitt/azure-pipeline-exercise/actions/workflows/python-app.yml/badge.svg)](https://github.com/ltpitt/azure-pipeline-exercise/actions/workflows/python-app.yml)
+
 # Overview
 
-<TODO: complete this with an overview of your project>
+This repository contains a Python application that is able to predict housing prices in Boston.
+Included facilities allow to deploy the application in Azure Cloud Shell and deploy the application as an Azure App Service.
+It features Continous Integration using GitHub Actions and Continous Deployment via a dedicated pipeline in Azure DevOps.
 
-## Project Plan
-<TODO: Project Plan
+## Project Planning
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [The project's Trello board](https://trello.com/b/N9oJA84b/udacity-simple-board)
+* [The project's management plan](project-management.xlsx)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+Continous Integration architectural diagram
+![img/CI_architectural_diagram.png](img/CD_architectural_diagram.png)
+
+Continous Delivery architectural diagram
+![img/CD_architectural_diagram.png](img/CD_architectural_diagram.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
