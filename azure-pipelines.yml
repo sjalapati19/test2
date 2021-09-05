@@ -7,7 +7,7 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '0f960931-a876-48d6-a2a6-895b88229aa6'
+  azureServiceConnectionId: 'azure-pipeline-exercise'
   webAppName: 'azure-pipeline-exercise'
   vmImageName: 'ubuntu-latest'
   environmentName: 'azure-pipeline-exercise'
