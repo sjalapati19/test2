@@ -14,7 +14,7 @@ It features Continous Integration using GitHub Actions and Continous Deployment 
 ## Instructions
 
 Continous Integration architectural diagram
-![img/CI_architectural_diagram.png](img/CD_architectural_diagram.png)
+![img/CI_architectural_diagram.png](img/CI_architectural_diagram.png)
 
 Continous Delivery architectural diagram
 ![img/CD_architectural_diagram.png](img/CD_architectural_diagram.png)
