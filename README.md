@@ -41,8 +41,19 @@ Here's a screenshot of the App Service in Azure:
 
 Now it is time to create the pipeline in Azure DevOps and lik it to this GitHub repo.
 
+Here's a screenshot of a successful pipeline run:
+![img/successful_pipeline_run.png](img/successful_pipeline_run.png)
 
+After the project is successfully deployed it is possible to test its functionality:
+```chmod +x make_predict_azure_app.sh && ./make_predict_azure_app.sh```
+![img/make_predict_azure_app.png](img/make_predict_azure_app.png)
 
+It is possible to visit the application via browser:
+![img/web_page.png](img/web_page.png)
+
+In order to check application logs:
+```az webapp log tail -g azure-pipeline-exercise -n azure-pipeline-exercise```
+![img/application_logs.png](img/application_logs.png)
 
 Continous Integration architectural diagram
 ![img/CI_architectural_diagram.png](img/CI_architectural_diagram.png)
@@ -50,36 +61,9 @@ Continous Integration architectural diagram
 Continous Delivery architectural diagram
 ![img/CD_architectural_diagram.png](img/CD_architectural_diagram.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
-
-* Project running on Azure App Service
-
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
-
-> 
-
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+- Explore the possibility to use Docker images
 
 ## Demo 
 
