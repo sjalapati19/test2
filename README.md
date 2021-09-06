@@ -13,6 +13,37 @@ It features Continous Integration using GitHub Actions and Continous Deployment 
 
 ## Instructions
 
+### How to deploy the project using Azure Cloud Shell
+
+Once in Azure Cloud Shell install the project and its requirements:
+- ```git clone git@github.com:ltpitt/azure-pipeline-exercise.git```
+![img/project_cloned_to_azure_cloud_shell.png](img/project_cloned_to_azure_cloud_shell.png)
+- ```cd azure-pipeline-exercise```
+- ```make setup```
+- ```source ~/.udacity-devops/bin/activate```
+- ```make all```
+![img/make_all_from_azure_cloud_shell.png](img/make_all_from_azure_cloud_shell.png)
+
+Then start the application locally:
+```python app.py```
+
+In order to test functionality open another Shell and:
+```./make_prediction.sh```
+![img/make_prediction.png](img/make_prediction.png)
+
+### How to deploy the project using Azure App Service
+
+The first step is creating an App Service in Azure, it is possible to use az cli tool from Azure Cloud Shell:
+```az webapp up -n azure-pipeline-exercise -g azure-pipeline-exercise --sku S1```
+
+Here's a screenshot of the App Service in Azure:
+![img/app_service_in_azure.png](img/app_service_in_azure.png)
+
+Now it is time to create the pipeline in Azure DevOps and lik it to this GitHub repo.
+
+
+
+
 Continous Integration architectural diagram
 ![img/CI_architectural_diagram.png](img/CI_architectural_diagram.png)
 
