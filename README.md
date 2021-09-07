@@ -63,6 +63,23 @@ In order to check application logs:
 
 ![img/application_logs.png](img/application_logs.png)
 
+## Stress test 
+
+It is possible to stress test the application using Locust.
+In order to run locust locally:  
+```pip install locust```
+
+And then:
+```locust```
+
+Once locust starts open your browser to http://localhost:8089 and fill the desired data like in the example below:  
+
+![img/locust_1.png](img/locust_1.png)
+
+The test will run and it will be possible to check its stats and download test data:
+
+![img/locust_2.png](img/locust_2.png)
+
 Continous Integration architectural diagram  
 
 ![img/CI_architectural_diagram.png](img/CI_architectural_diagram.png)
