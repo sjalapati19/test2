@@ -63,6 +63,11 @@ In order to check application logs:
 
 ![img/application_logs.png](img/application_logs.png)
 
+Here's a screenshot of the Continous Integration running successfully in GitHub:  
+
+![img/successful_ci_run.png](img/successful_ci_run.png)
+
+
 ## Stress test 
 
 It is possible to stress test the application using Locust.
