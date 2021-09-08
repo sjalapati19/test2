@@ -65,7 +65,7 @@ In order to check application logs:
 
 Here's a screenshot of the Continous Integration running successfully in GitHub:  
 
-![img/successful_ci_run.png](img/successful_ci_run.png)
+![img/successful_CI_run.png](img/successful_CI_run.png)
 
 
 ## Stress test 
