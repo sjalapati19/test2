@@ -94,6 +94,4 @@ Continous Delivery architectural diagram
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
-
+* [CI / CD demo](https://youtu.be/J0XPLyRNr4U)
