@@ -2,8 +2,8 @@
 
 # Overview
 
-This repository contains a Python Web API (flask / scikit-learn) that is able to predict housing prices in Boston.
-Included facilities allow to deploy the application in Azure Cloud Shell and deploy the application as an Azure App Service.
+This repository contains a Python Web API (flask / scikit-learn) that is able to predict housing prices in Boston.  
+Included facilities allow to deploy the application in Azure Cloud Shell and deploy the application as an Azure App Service.  
 It features Continous Integration using GitHub Actions and Continous Deployment via a dedicated pipeline in Azure DevOps.
 
 ## Project Planning
